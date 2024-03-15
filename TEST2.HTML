@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeLane</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .time {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .heading {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #333;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        .benefits {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .benefit {
+            width: calc(50% - 10px);
+            display: flex;
+            margin-bottom: 2rem;
+        }
+
+        .benefit:nth-child(even) {
+            margin-left: 2rem;
+        }
+
+        .icon {
+            width: 100px;
+            height: 100px;
+            background-color: #f5f5f5;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+        }
+
+        .icon img {
+            width: 50px;
+            height: auto;
+        }
+
+        .text {
+            flex: 1;
+        }
+
+        .title-benefit {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .description-benefit {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 2rem;
+        }
+
+        .form input {
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+        }
+
+        .form input:focus {
+            outline: none;
+            box-shadow: 0 0 2px 1px #333;
+        }
+
+        .form button {
+            padding: 0.5rem;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .form button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="time">10:35 III 1 12%</div>
+    <div class="heading">
+        <div class="title">HomeLane</div>
+        <div class="subtitle">Design Gallery ✓</div>
+    </div>
+    <div class="benefits">
+        <div class="benefit">
+            <div class="icon">
+                <img src="warranty-icon.png" alt="Warranty Icon">
+            </div>
+            <div class="text">
+                <p class="title-benefit">Flat 10 year warranty</p>
+                <p class="description-benefit">Choose interiors designed with superior quality material, leaving no room for defects.</p>
+            </div>
+        </div>
+        <div class="benefit">
+            <div class="icon">
+                <img src="delivery-icon.png" alt="Delivery Icon">
+            </div>
+            <div class="text">
+                <p class="title-benefit">45 DAYS</p>
+                <p class="description-benefit">45-day delivery. Get beautiful interiors for your new home in just 45 days. That's our delivery guarantee.</p>
+            </div>
+        </div>
+        <div class="benefit">
+            <div class="icon">
+                <img src="designers-icon.png" alt="Designers Icon">
+            </div>
+            <div class="text">
+                <p class="title-benefit">600+ design experts</p>
+                <p class="description-benefit">Explore design ideas and co-create your dream home with our experienced designers</p>
+            </div>
+        </div>
+        <div class="benefit">
+            <div class="icon">
+                <img src="service-icon.png" alt="Service Icon">
+            </div>
+            <div class="text">
+                <p class="title-benefit">Post-installation service</p>
+                <p class="description-benefit">Complete your design journey and get unwavering support from our team of experts</p>
+            </div>
+        </div>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Enter your name" required>
+        <input type="email" placeholder="Enter your email" required>
+        <input type="tel" placeholder="Enter your mobile number" required>
+        <button type="submit">BOOK FREE DESIGN SESSION</button>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeLane Design Gallery</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('oo.jpg'); /* Background image URL */
+            background-size: cover;
+            background-position: top;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Time */
+        .time {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        /* Heading */
+        .heading {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #333;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        /* Description */
+        .description {
+            margin-bottom: 2rem;
+        }
+
+        .description p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        /* Form */
+        /* Form */
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem; /* Added margin-top */
+}
+
+.form input {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.form input:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px #333;
+}
+
+.form button {
+    padding: 0.8rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #444;
+}
+
+        /* Navbar styles */
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+            margin-right: 2rem;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+            font-size: 1.2rem;
+        }
+
+        .navbar ul li a:hover {
+            color: blue;
+        }
+
+        /* Content styles */
+        .content {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            color: white;
+        }
+
+        .content p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin-bottom: 2rem;
+            color: white;
+        }
+
+        /* Design gallery styles */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem 0;
+            background-color: rgba(255, 255, 255, 0.8); /* Added background color with opacity */
+        }
+
+        .gallery {
+            margin: 1rem;
+            text-align: center;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        .desc {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Smooth scrolling animation */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Scrollbar styles */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+        }
+
+        /* Button styles */
+        button {
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#bedroom">BEDROOM</a></li>
+        <li><a href="#dining">DINING</a></li>
+        <li><a href="#kitchen">KITCHEN</a></li>
+        <li><a href="#backyard">BACKYARD</a></li>
+    </ul>
+</div>
+
+<header class="header">
+    <h1>Dream Homes Begin with Dream Designs</h1>
+</header>
+
+<div class="content" id="home">
+    <h1>DESIGN YOUR HOUSE</h1>
+    <div style="text-align: center;">
+        <button type="button">WATCH MORE</button>
+    </div>
+</div>
+
+<div class="row">
+    <h1 id="bedroom">Design Gallery</h1>
+    <div class="gallery">
+        <a href="#" target="_blank">
+            <img src="Modular.jpg" alt="Modular Kitchen">
+        </a>
+        <div class="desc">MODULAR KITCHEN</div>
+    </div>
+    <div class="gallery">
+        <a href="#" target="_blank">
+            <img src="BEDROOM.jpg" alt="Bedroom">
+        </a>
+        <div class="desc">BEDROOM</div>
+    </div>
+    <div class="gallery">
+        <a href="#" target="_blank">
+            <img src="LIVINGROOM.jpg" alt="Living Room">
+        </a>
+        <div class="desc">LIVING ROOM</div>
+    </div>
+    <div class="gallery">
+        <a href="#" target="_blank">
+            <img src="BATHROOM.jpg" alt="Bathroom">
+        </a>
+        <div class="desc">BATHROOM</div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="heading">
+        <div class="title">HomeLane</div>
+    </div>
+    <div class="description">
+        <p>Get a free design consultation for your home.</p>
+        <p>Visualise your dream home interiors in 3D at our studio nearby or virtually from anywhere.</p>
+        <p>Receive personalised quotes as per your requirements and floor plan.</p>
+    </div>
+    <div class="form">
+        <div class="title">MEET A DESIGNER</div>
+        <input type="text" placeholder="Enter your name" required>
+        <input type="email" placeholder="Enter your email" required>
+        <input type="tel" placeholder="Enter your mobile number" required>
+        <button type="submit">BOOK FREE DESIGN SESSION</button>
+    </div>
+</div>
+
+<div class="content" id="home">
+    <p>Subscribe to our YouTube channel for design inspirations and latest updates.</p>
+    <div>
+        <button type="button">SUBSCRIBE</button>
+    </div>
+</div>
+
+</body>
+</html>

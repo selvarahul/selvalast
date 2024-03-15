@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Homes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(1\ selva.jpg); /* Background image URL */
+            background-size: cover;
+            background-position: top;
+            background-repeat: no-repeat;
+        }
+        
+
+        /* Header styles */
+        .header {
+            color: black;
+            padding: 1rem;
+            text-align: center;
+            margin-bottom: 1rem;
+            position: relative;
+            bottom: 90px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Navbar styles */
+        /* Navbar styles */
+.navbar {
+    background-color: rgb(94, 121, 139);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.navbar ul li a:hover {
+    color: blue;
+}
+
+/* Responsive navbar */
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar ul li {
+        margin: 1rem 0;
+    }
+}
+
+        /* Content styles */
+        .content {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            color: white;
+        }
+
+        .content p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin-bottom: 2rem;
+            color:black;
+        }
+
+        /* Design gallery styles */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem 0;
+            background-color: rgba(255, 255, 255, 0.8); /* Added background color with opacity */
+        }
+
+        .gallery {
+            margin: 1rem;
+            text-align: center;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        .desc {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Smooth scrolling animation */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Scrollbar styles */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+        }
+
+        /* Button styles */
+        button {
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+        .about-section {
+    background-color: #f9f9f9;
+    padding: 3rem;
+    text-align: center;
+}
+h1{
+    position: relative;
+    top:80px;
+}
+.about-section {
+    background-color: #f9f9f9;
+    padding: 3rem;
+    text-align: center;
+    position: relative; /* Added positioning */
+    top: 80px; /* Adjust as needed */
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: black;
+    position: relative; /* Added positioning */
+    top: 0; /* Adjust as needed */
+}
+
+.social-icons {
+    margin-top: 2rem;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+}
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#bedroom">BEDROOM</a></li>
+        <li><a href="#dining">DINING</a></li>
+        <li><a href="#kitchen">KITCHEN</a></li>
+        <li><a href="#backyard">BACKYARD</a></li>
+    </ul>
+</div>
+
+<header class="header">
+    <h1>DESIGN YOUR HOUSE</h1>
+</header>
+
+<div class="content" id="home">
+    
+    <div style="text-align: center;">
+        <button type="button">WATCH MORE</button>
+    </div>
+</div>
+
+<div class="row">
+    <h1 id="bedroom">Design Gallery</h1>
+    <div class="gallery">
+        <a href="modular.html" target="_blank">
+            <img src="Modular.jpg" alt="Modular Kitchen">
+        </a>
+        <div class="desc">MODULAR KITCHEN</div>
+    </div>
+    <div class="gallery">
+        <a href="bedroom.html" target="_blank">
+            <img src="BEDROOM.jpg" alt="Bedroom">
+        </a>
+        <div class="desc">BEDROOM</div>
+    </div>
+    <div class="gallery">
+        <a href="livingroom.html" target="_blank">
+            <img src="LIVINGROOM.jpg" alt="Living Room">
+        </a>
+        <div class="desc">LIVING ROOM</div>
+    </div>
+    <div class="gallery">
+        <a href="bathroom.html" target="_blank">
+            <img src="BATHROOM.jpg" alt="Bathroom">
+        </a>
+        <div class="desc">BATHROOM</div>
+    </div>
+</div>
+
+<div class="content" id="home">
+   
+    <div>
+        <button type="button">SUBSCRIBE</button>
+    </div>
+</div>
+<div class="about-section">
+    <h1>About Dream Homes</h1>
+    <p>Welcome to Dream Homes, where we turn your dream house into a reality. Our team of experts is dedicated to providing you with the best design solutions for every room in your home. Explore our gallery and get inspired to create a space that reflects your style and personality.</p>
+    <div class="social-icons">
+        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+        <a href="#"><img src="instragram-icon.png" alt="Instagram"></a>
+    </div>
+</div>
+
+
+</body>
+</html>
